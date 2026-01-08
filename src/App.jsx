@@ -9,11 +9,11 @@ const links = [
 
 const adminLinks = [
   { id: 'admin-phoebe', text: 'Phoebe', href: 'https://api.whatsapp.com/send?phone=639686450947' },
-  { id: 'admin-kimmu', text: 'Kimmu', href: 'https://api.whatsapp.com/send?phone=639162890183' },
   { id: 'admin-glia', text: 'Glia', href: 'https://api.whatsapp.com/send?phone=639758609769' },
   { id: 'admin-james', text: 'James', href: 'https://api.whatsapp.com/send?phone=639054620846' },
   { id: 'admin-jec', text: 'Jec', href: 'https://api.whatsapp.com/send?phone=639611521891' },
   { id: 'admin-teddy', text: 'Teddy', href: 'https://api.whatsapp.com/send?phone=639615431545' },
+  { id: 'admin-danica', text: 'Danica', href: 'https://api.whatsapp.com/send?phone=639772189091' },
   { id: 'admin-jonina', text: 'Jonina', href: 'https://api.whatsapp.com/send?phone=639058429200' },
 ]
 

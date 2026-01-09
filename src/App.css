@@ -1,31 +1,37 @@
 /* ===== CSS Variables ===== */
 :root {
-  /* Violet/Purple Palette */
-  --primary: #8B5CF6;
-  --primary-dark: #7C3AED;
-  --primary-light: #A78BFA;
-  --primary-glow: rgba(139, 92, 246, 0.4);
+  /* Pink Cute Palette */
+  --primary: #FF69B4;
+  /* HotPink */
+  --primary-dark: #FF1493;
+  /* DeepPink */
+  --primary-light: #FFB6C1;
+  /* LightPink */
+  --primary-glow: rgba(255, 105, 180, 0.4);
 
   /* Background Colors */
-  --bg-primary: #2D1B4E;
-  --bg-secondary: #3D2663;
-  --bg-card: rgba(139, 92, 246, 0.12);
-  --bg-card-hover: rgba(139, 92, 246, 0.2);
+  --bg-primary: #FFF0F5;
+  /* LavenderBlush */
+  --bg-secondary: #FFE4E1;
+  /* MistyRose */
+  --bg-card: rgba(255, 255, 255, 0.6);
+  --bg-card-hover: rgba(255, 255, 255, 0.9);
 
   /* Text Colors */
-  --text-primary: #FFFFFF;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --text-muted: rgba(255, 255, 255, 0.5);
+  --text-primary: #4A4A4A;
+  /* Dark Gray */
+  --text-secondary: rgba(74, 74, 74, 0.7);
+  --text-muted: rgba(74, 74, 74, 0.5);
 
   /* Effects */
-  --shadow-glow: 0 0 40px rgba(139, 92, 246, 0.3);
-  --shadow-btn: 0 4px 20px rgba(139, 92, 246, 0.25);
-  --shadow-btn-hover: 0 8px 30px rgba(139, 92, 246, 0.4);
+  --shadow-glow: 0 0 40px rgba(255, 105, 180, 0.3);
+  --shadow-btn: 0 4px 20px rgba(255, 105, 180, 0.25);
+  --shadow-btn-hover: 0 8px 30px rgba(255, 105, 180, 0.4);
 
   /* Sizing */
-  --border-radius: 16px;
-  --border-radius-lg: 24px;
-  --max-width: 400px;
+  --border-radius: 20px;
+  --border-radius-lg: 30px;
+  --max-width: 420px;
 }
 
 /* ===== Reset & Base ===== */
@@ -384,6 +390,15 @@ body {
   position: relative;
   z-index: 1;
   transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
 }
 
 .link-btn:hover .btn-icon {

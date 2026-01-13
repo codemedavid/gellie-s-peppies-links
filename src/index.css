@@ -1,15 +1,15 @@
 :root {
   /* Color Palette - Gellies Peppies Theme */
-  --color-primary: #8A2BE2;
-  /* Violet */
-  --color-primary-dark: #6A1B9A;
-  /* Darker Violet */
-  --color-secondary: #FFB6C1;
-  /* Soft Pink */
-  --color-secondary-dark: #FF69B4;
-  /* Hot Pink */
-  --color-accent: #FFC0CB;
-  /* Pink */
+  --color-primary: #B388FF;
+  /* Lighter Violet */
+  --color-primary-dark: #7C4DFF;
+  /* Slightly Darker Violet (but lighter than before) */
+  --color-secondary: #E1BEE7;
+  /* Soft Lavender */
+  --color-secondary-dark: #BA68C8;
+  /* Medium Orchid */
+  --color-accent: #D1C4E9;
+  /* Pale Violet */
 
   --color-bg-start: #E6E6FA;
   /* Lavender */

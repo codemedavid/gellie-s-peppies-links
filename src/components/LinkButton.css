@@ -30,19 +30,21 @@
     filter: brightness(1.1);
 }
 
-/* Social/Secondary Variant (Pink Outline) */
+/* Social/Secondary Variant (Violet Outline) */
 .link-button--social {
     background: rgba(255, 255, 255, 0.6);
-    border: 2px solid var(--color-secondary-dark);
+    border: 2px solid var(--color-primary);
+    /* Changed from secondary-dark (pink) to primary (violet) */
     color: var(--color-text);
 }
 
 .link-button--social:hover {
-    background: var(--color-secondary);
+    background: var(--color-primary);
     color: var(--color-white);
-    border-color: var(--color-secondary);
+    border-color: var(--color-primary);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+    box-shadow: 0 4px 12px rgba(179, 136, 255, 0.4);
+    /* Violet shadow */
 }
 
 .link-button-icon {

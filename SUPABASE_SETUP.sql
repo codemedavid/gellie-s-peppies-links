@@ -42,5 +42,5 @@ insert into links (text, href, icon, variant, "order") values
 ('Telegram — Direct Chat', 'https://t.me/angie587', '📨', 'social', 7),
 
 -- Header: Social (Optional)
-('🎵 Social (Optional Section)', '#', null, 'header', 8),
+('🎵 Social', '#', null, 'header', 8),
 ('TikTok — Gellies Peppies', 'https://www.tiktok.com/@gellies.peppiesforyou?_r=1&_t=ZS-931dUxI42t7', '🎶', 'social', 9);
